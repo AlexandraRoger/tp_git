@@ -6,4 +6,4 @@ class FlexSensor():
         self.value = None
 
     def analog_read(self):
-        print("Finger : {self.finger} - Flex : {self.}")
+        print("Finger : {self.finger} - Flex : {self.value}")
